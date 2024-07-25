@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build:ts": "tsc",
-    "build:vite": "vite build",
-    "build": "npm run build:ts && npm run build:vite",
+    "build:ts": "[my-framework] build --output public",
     "preview": "vite preview",
     "test": "vitest run",
     "format": "prettier --write .",
