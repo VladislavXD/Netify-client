@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build:ts": "[my-framework] build --output public",
+    "build": "[my-framework] build --output public",
     "preview": "vite preview",
     "test": "vitest run",
     "format": "prettier --write .",
