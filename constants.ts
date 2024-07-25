@@ -1,4 +1,4 @@
-export const BASE_URL = process.env.NODE_ENV == 'production' ? 'http://localhost:5000' : 'http://localhost:5000'
+export const BASE_URL = process.env.NODE_ENV == 'production' ? 'https://netify-epress-api.onrender.com' : 'https://netify-epress-api.onrender.com'
 // NODE_ENV это системная переменная которая сама определяется при деплои проекта
 
 
